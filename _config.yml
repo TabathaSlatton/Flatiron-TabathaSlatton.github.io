@@ -1,11 +1,11 @@
 # Site settings
 author: Tabatha Slatton
-title: 
+title: Slatton Dev Blog
 header-img: img/home-bg.png
 email: valbatha@gmail.com
 copyright_name: Tabatha Slatton
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Exploring Topics in Software Engineering
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  TabathaSlatton
