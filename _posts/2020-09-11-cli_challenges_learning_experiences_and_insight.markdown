@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI: Challenges, Learning Experiences, and Insight"
-date:       2020-09-11 18:55:36 +0000
+date:       2020-09-11 14:55:37 -0400
 permalink:  cli_challenges_learning_experiences_and_insight
 ---
 
@@ -10,7 +10,7 @@ permalink:  cli_challenges_learning_experiences_and_insight
 
  <p>I faced a number of challenges throughout this CLI project. The first being scale. I had a lot of big ideas for this project, but I knew going into it that I would not be able to get to all of them. I tackled this by using my background in teaching to know that it is better to over prepare with an idea of what will be cut than to underprepare and be unhappy with the result. With that in mind, I started with 17 user stories, some labled as *bonus*, others labeled as *expandable*. In addition, I had several that were not labled at all. The unlabled user stories were ones I for sure wanted. </p>
 <p>The next challenge I faced while working on this project was scraping text nodes. These nodes were not attached to any parent containers. They were loose nodes. This was a challenge because I could not tell how to grab them with a css selector. <br><br>
-` <h2 class="title">Alchemical Weapon Expertise<span style="float:right;">Level 7</span></h2> You’ve trained to more effectively wield the weapons you find in your lab. Your proficiency ranks for simple weapons, unarmed attacks, and alchemical bombs increase to expert.  `
+`<h2 class="title">Alchemical Weapon Expertise<span style="float:right;">Level 7</span></h2> You’ve trained to more effectively wield the weapons you find in your lab. Your proficiency ranks for simple weapons, unarmed attacks, and alchemical bombs increase to expert. `
 <br > <br> 
 Something interesting I noticed about each of these text nodes is that they always followed an h2 with a class of title. After some googling, I found my solution! If I could select the h2 element (which I needed for the text inside anyway), I could used the method #next_sibling( ) to get the text node that followed. I tested this out with binding.pry and it worked! I was able to grab that text for my project. </p>
 
