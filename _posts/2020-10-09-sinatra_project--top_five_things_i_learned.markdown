@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Sinatra Project--Top Five Things I learned"
-date:       2020-10-09 18:51:27 +0000
+title:      "Sinatra Project: Top Five Things I learned"
+date:       2020-10-09 14:51:28 -0400
 permalink:  sinatra_project--top_five_things_i_learned
 ---
 
