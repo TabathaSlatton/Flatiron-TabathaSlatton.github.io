@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Brainstorming for your Personal Projects: Part Two"
-date:       2021-01-12 04:44:56 +0000
+date:       2021-01-11 23:44:57 -0500
 permalink:  brainstorming_for_your_personal_projects_part_two
 ---
 
